@@ -1,6 +1,6 @@
 let inputname = "";
         setTimeout(() => {
-            inputname = prompt("Who's birthday");
+            inputname = prompt("⚠️⚠️IMPORTANT: PLEASE USE OPERA BROWSER⚠️⚠️\nWho's birthday");
             alert("Wish you very very happy birthday🥳");
             alert("Blow the candles 🎂");
         }, 1000);
