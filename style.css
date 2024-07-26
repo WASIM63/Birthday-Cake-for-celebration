@@ -1,0 +1,35 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.cake{
+    height:100vh;
+    width:100vw;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+video{
+    height:100vh;
+    width:100vw;
+}
+span{
+    font-size: 5rem;
+    position: absolute;
+    bottom: 1.5em;
+    font-style: italic;
+    color:goldenrod;
+    font-weight: bolder;    
+    -webkit-text-stroke:white 2px;
+}
+.namestyle{
+    text-transform: uppercase;
+    position:absolute;
+    top:2rem;
+    font-size:15rem;
+    color:goldenrod;
+    -webkit-text-stroke:black 3px;
+    font-weight:bolder; 
+}
