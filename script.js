@@ -6,7 +6,6 @@ let inputname = "";
         }, 1000);
         let count = 0;
         let video = document.querySelector("video");
-        // const startButton = document.getElementById('start');⭐
 
         async function blowout() {
             // Prompt user to give permission for microphone access
@@ -40,15 +39,16 @@ let inputname = "";
                     name.innerText = inputname;
                     name.classList.add("namestyle");
                     document.querySelector(".cake").append(name);
+
+                        stream.getTracks().forEach(track => track.stop());
+                        scriptProcessor.disconnect();
+                        analyser.disconnect();
+                        microphone.disconnect();
                 }
             };
-        }
-        async function call() {//⭐
-            await blowout();
-        }
-        call();
-        // start.addEventListener('click', async () => {//⭐
-        //     await blowout();
-        // });
+        };
+        
+        blowout();
+
 
     
