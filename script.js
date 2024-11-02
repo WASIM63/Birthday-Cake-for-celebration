@@ -33,7 +33,7 @@ let inputname = "";
                 console.log(decibels);
                 if (decibels > -0.0007 && decibels < -0.0001) { // Threshold for blow sound detection
                     console.log('Blowed');
-                    document.querySelector("div").innerHTML = '<video src="videos/complete.mp4" type="video/mp4" autoplay loop></video>';
+                    document.querySelector("div").innerHTML = '<video src="./videos/complete.mp4" type="video/mp4" autoplay loop></video>';
                     console.log('Decibels:', decibels);
                     let name = document.createElement("div");
                     name.innerText = inputname;
